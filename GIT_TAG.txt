@@ -1,0 +1,34 @@
+----------------------- Git Tag--------------------------
+
+--> Types of tags
+1. lightweight - pointer to a specific commit
+2. annotated - stored as full object in database
+			 - checksummed, contain the tagger name, email and date.
+
+*****************************
+
+--> Annotated tag commands
+
+1. git tag -> list all the tags.
+2. git tag -a <tag> -m '<comment>' -> create a tag with tag message.
+3. git show <tag> -> displays the tag details with message.
+
+*****************************
+
+--> Lightweight tag commands.
+
+1. git tag <tag> -> create lightweight tag
+
+-----------------------------
+
+--> basic commands
+
+1. to tag past committed data: git tag -a <tag> <commit_checksum_part>
+
+
+->> NOTES: Normal git push won't push the tags to remote servers.You have to explicitly specify the name of tag.
+git push origin [tagName]
+
+- for multile tag push use: git push origin --tags
+
+->> NOTES: When pull and clone is run then all the tags will be available to user.
