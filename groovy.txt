@@ -1,0 +1,3 @@
+import org.apache.commons.codec.binary.Base64;
+byte[] encodedBytes = Base64.encodeBase64("sfgsag32sdgh".getBytes());
+log.info encodedBytes
