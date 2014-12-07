@@ -1,0 +1,51 @@
+Git Presentation: 
+
+*********Terminologies**********
+Repository:  A storagee of the history changes of the tracked files hidden from user.
+Working Copy: Set of tracked files.
+Revision: A specific set of data recorded in history.
+Branch: A separate line of history of tracked files deviating from the origin or another branch.
+
+- - - - - - - - - - - - - - - - - - - - - - - - Getting Started with Version Control Systems - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Introduction to Version control system: 
+
+- Version control system is a repository of files, where every change is monitored. 
+what changes are made, who made the changes and the at what date and time changes are made.
+
+- Easy to track and combine the individual processes using version control system.
+- changes will be done to host only after you commit the changes.
+- Can create branches and merge the code later to the main repository
+
+
+Type of version control system
+
+- Centralized version control system (CVCS)(e.g. svn)
+- Decentralized/Distributed version control system (DVCS)(e.g. GIT)
+
+CVC: 	repository is located in one place and access is given to different clients
+Advantages: 
+-Easy to understand. 
+-More control over users and access
+
+Drawbacks: 
+- dependent on access of servers.
+- Can be slower because every command connects to server.
+- Branching and merging tools are difficult to use.
+
+DVC:	Each user have its own copy of the repository, not just files but history as well. Git is an example.
+
+Advantages: 
+- More powerful and detail change tracking
+-No server necessary – all actions except sharing repositories are local (commit offline)
+-Faster
+
+Drawbacks:
+-Harder to understand
+
+
+**************************************************************************************************************
+
+- - - - - - - - - - - - - - - - - - - - - Getting Started with GIT - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+- Git is a DVCS
+- Every one has their own copy of code.(repositories)
