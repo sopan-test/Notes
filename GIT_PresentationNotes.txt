@@ -49,3 +49,8 @@ Drawbacks:
 
 - Git is a DVCS
 - Every one has their own copy of code.(repositories)
+
+
+
+------*******------******* GIT Workflow *******-------********--------**********
+Working Directory --git add . --> Staging Area -- git commit --> local repo --git push --> remote repo
